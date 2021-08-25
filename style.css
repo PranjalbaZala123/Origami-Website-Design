@@ -8,7 +8,7 @@
     color: white;
 }
 body {
-    background-color: #008080;
+    background-color: whitesmoke
 }
 .grid {
     display: flex;
@@ -26,6 +26,12 @@ body {
     width: 310px;
     font-family: fantasy;
 }
+a:link{
+    color: plum;
+}
+a:visited{
+    color: peru;
+}
 .bodyimg p{
     color:#f7f2f2;
     font-size: 55px;
@@ -38,7 +44,6 @@ body {
 .bodyimg{
     position: relative;
 }
-    
 .bodyimg h4{
     color:#f7f2f2;
     font-family: fantasy;
@@ -48,6 +53,23 @@ body {
     top:40%;
     left:55%;
     transform: translate(-40%, -40%);
+}
+.origami{
+    position: relative;
+}
+.origami p{
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    transform: translate(-50% -50%);
+}
+.origami:hover p{
+    opacity: 1;
+    color: turquoise;
+}
+.origami:hover img{
+    opacity: 0.33;
 }
  
 
